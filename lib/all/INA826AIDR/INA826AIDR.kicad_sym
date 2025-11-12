@@ -1,0 +1,173 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "INA826AIDR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -5.08 10.795 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "INA826AIDR" (id 1) (at -7.62 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "INA826AIDR:SOIC127P599X175-8N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Texas Instruments" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "1.75mm" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "SOIC-8 Texas Instruments" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/INA826AIDR/Texas+Instruments/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "IPC-7351B" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "G" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/INA826AIDR/Texas+Instruments/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "INA826AIDR" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            Precision, 200-μA Supply Current, 36-V Supply Instrumentation Amplifier\n                        \n" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Texas Instruments" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "INA826AIDR_0_0"
+      (polyline
+        (pts (xy -2.54 7.62) (xy -2.54 5.08)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -2.54 5.08) (xy -2.54 2.54)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -2.54 2.54) (xy -2.54 -5.08)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -2.54 -5.08) (xy 5.588 0.0)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 5.588 0.0) (xy 7.62 1.27)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 7.62 1.27) (xy -2.54 7.62)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -1.27 -1.905) (xy -1.27 -3.175)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.905 5.08) (xy -0.635 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.905 -2.54) (xy -0.635 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 1.27) (xy 10.16 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 10.16 2.54) (xy 12.7 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 5.08) (xy -5.08 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -2.54) (xy -5.08 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 2.54) (xy -7.62 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 0.0) (xy -7.62 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 4.572) (xy 2.54 7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -2.032) (xy 2.54 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.588 0.0) (xy 12.7 0.0)) (stroke (width 0.254))
+      )
+      (rectangle (start -6.7056 -5.0546) (end 13.6144 7.6454)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin input line (at -12.7 -5.08 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 7.62 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 17.78 0.0 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 7.62 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -5.08 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 2.54 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 0.0 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 17.78 2.54 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

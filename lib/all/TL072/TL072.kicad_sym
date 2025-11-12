@@ -1,0 +1,142 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "TL072" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 5.08323 6.35656 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "TL072" (id 1) (at 5.08217 -7.62448 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "TL072:DIP794W45P254L1060H508Q8" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Texas Instruments" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            Operational Amplifiers - Op Amps Dual Lo-Noise JFET Input Op Amp\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "IPC-7351B" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "MARCH2005" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/TL072/Texas+Instruments/view-part/?ref=snap" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "TL072" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "Not in stock" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/TL072/Texas+Instruments/view-part/?ref=eda" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "TL072_1_0"
+      (polyline
+        (pts (xy -5.08 7.62) (xy -5.08 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -7.62) (xy 2.54 -3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -3.81) (xy 10.16 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 10.16 0.0) (xy 2.54 3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 3.81) (xy -5.08 7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 5.08) (xy 2.54 3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -3.81) (xy 2.54 -5.08)) (stroke (width 0.254))
+      )
+      (pin input line (at -7.62 2.54 0) (length 2.54)
+        (name "1IN+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -7.62 -2.54 0) (length 2.54)
+        (name "1IN-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 12.7 0.0 180.0) (length 2.54)
+        (name "1OUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 2.54 7.62 270.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 2.54 -7.62 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "TL072_2_0"
+      (polyline
+        (pts (xy -5.08 7.62) (xy -5.08 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -7.62) (xy 10.16 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 10.16 0.0) (xy -5.08 7.62)) (stroke (width 0.254))
+      )
+      (pin input line (at -7.62 2.54 0) (length 2.54)
+        (name "2IN+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -7.62 -2.54 0) (length 2.54)
+        (name "2IN-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 12.7 0.0 180.0) (length 2.54)
+        (name "2OUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

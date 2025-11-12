@@ -1,0 +1,175 @@
+LTspice 24.1.8 for Windows
+Circuit: C:\users\mmms\Documents\PCB\ECTdevice\spice\InstrumentationAmplification.net
+Start Time: Fri Sep  5 16:43:24 2025
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = trap
+Instance "u3:M4": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M5": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M19": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M23": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M57": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M57": Width narrower than recommended for a level 1 MOSFET.
+Instance "u3:M67": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M67": Width narrower than recommended for a level 1 MOSFET.
+Instance "u3:M68": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M68": Width narrower than recommended for a level 1 MOSFET.
+Instance "u3:M58": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M58": Width narrower than recommended for a level 1 MOSFET.
+Instance "u3:M59": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M64": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M65": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M65": Width narrower than recommended for a level 1 MOSFET.
+Instance "u3:M66": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M66": Width narrower than recommended for a level 1 MOSFET.
+Instance "u3:M43": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M44": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M45": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M46": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M41": Length shorter than recommended for a level 1 MOSFET.
+Instance "u3:M42": Length shorter than recommended for a level 1 MOSFET.
+C:\users\mmms\Documents\PCB\ECTdevice\spice\INA826.lib(90): Missing value, assuming 0V @ DC.
+
+VIb1        36 GND ; Current Arrow
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\users\mmms\Documents\PCB\ECTdevice\spice\INA826.lib(132): Missing value, assuming 0V @ DC.
+
+VI8b        44 50 ; Current Arrow
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\users\mmms\Documents\PCB\ECTdevice\spice\INA826.lib(133): Missing value, assuming 0V @ DC.
+
+VI3b        44 51 ; Current Arrow
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\users\mmms\Documents\PCB\ECTdevice\spice\INA826.lib(191): Missing value, assuming 0V @ DC.
+
+VI8b        64 74 ; Current Arrow
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\users\mmms\Documents\PCB\ECTdevice\spice\INA826.lib(192): Missing value, assuming 0V @ DC.
+
+VI3b        64 75 ; Current Arrow
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\users\mmms\Documents\PCB\ECTdevice\spice\INA826.lib(252): Missing value, assuming 0V @ DC.
+
+VI8b        87 93 ; Current Arrow
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\users\mmms\Documents\PCB\ECTdevice\spice\INA826.lib(253): Missing value, assuming 0V @ DC.
+
+VI3b        87 94 ; Current Arrow
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Increasing initial diagonal Gmin to 1000
+Gmin = 1000
+Gmin = 107.374
+Gmin = 11.5292
+vernier = 0.5
+Gmin = 1.93428
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 1.93428
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 49.2898%
+Source Step = 49.7633%
+Source Step = 50.0533%
+Source Step = 50.0829%
+Source Step = 50.1125%
+Source Step = 50.142%
+Source Step = 50.1716%
+Source Step = 50.2012%
+vernier = 0.00146484
+Source Step = 50.2456%
+Source Step = 50.29%
+Source Step = 50.3344%
+Source Step = 50.3788%
+Source Step = 50.4232%
+vernier = 0.00219727
+Source Step = 50.4875%
+Source Step = 50.5541%
+Source Step = 50.6207%
+Source Step = 50.6873%
+Source Step = 50.7539%
+vernier = 0.0032959
+Source Step = 50.8471%
+Source Step = 50.947%
+Source Step = 51.0468%
+Source Step = 51.1467%
+Source Step = 51.2466%
+vernier = 0.00494385
+Source Step = 51.3814%
+Source Step = 51.5312%
+Source Step = 51.6811%
+Source Step = 51.8309%
+Source Step = 51.9807%
+vernier = 0.00741577
+Source Step = 52.1754%
+Source Step = 52.4002%
+Source Step = 52.6249%
+Source Step = 52.8496%
+Source Step = 53.0743%
+vernier = 0.0111237
+Source Step = 53.3552%
+Source Step = 53.6923%
+Source Step = 54.0294%
+Source Step = 54.3665%
+Source Step = 54.7035%
+vernier = 0.0166855
+Source Step = 55.108%
+Source Step = 55.6137%
+Source Step = 56.1193%
+Source Step = 56.6249%
+Source Step = 57.1305%
+vernier = 0.0250282
+Source Step = 57.712%
+Source Step = 58.4704%
+Source Step = 59.2289%
+Source Step = 59.9873%
+Source Step = 60.7457%
+vernier = 0.0375423
+Source Step = 61.58%
+Source Step = 62.7176%
+Source Step = 63.8553%
+Source Step = 64.9929%
+Source Step = 66.1306%
+vernier = 0.0563135
+Source Step = 67.3251%
+Source Step = 69.0316%
+Source Step = 70.738%
+Source Step = 72.4445%
+Source Step = 74.151%
+Source Step = 75.8575%
+vernier = 0.0844703
+Source Step = 78.4172%
+Source Step = 80.9769%
+Source Step = 83.5366%
+Source Step = 86.0963%
+Source Step = 88.656%
+vernier = 0.126705
+Source Step = 92.3676%
+Source Step = 96.2071%
+Source Step = 100%
+Source stepping succeeded in finding the operating point.
+
+Total elapsed time: 6.035 seconds.
+
+Files loaded:
+C:\users\mmms\Documents\PCB\ECTdevice\spice\InstrumentationAmplification.net
+C:\users\mmms\Documents\PCB\ECTdevice\spice\INA826.lib
+C:\users\mmms\AppData\Local\LTspice\lib\sub\AD8065.lib
+C:\users\mmms\Documents\PCB\ECTdevice\spice\OPA552.LIB
+

@@ -1,0 +1,6 @@
+LTspice 24.1.8 for Windows
+Circuit: C:\users\mmms\Documents\PCB\ECTdevice\res\gain_amplification.net
+Start Time: Mon Sep  1 15:26:40 2025
+C:\users\mmms\Documents\PCB\ECTdevice\res\gain_amplification.net(3): This sub-circuit name is not defined.
+X§U1 PWR N001 v+ 0 OUT opamp2
+                      ^^^^^^^
